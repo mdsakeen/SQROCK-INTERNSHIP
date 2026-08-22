@@ -1,0 +1,67 @@
+{
+  "project": "Sqrock Cybersecurity Internship - Day 1",
+  "task": "OSINT & Passive Reconnaissance",
+  "scope_note": "Authorized practice/lab domain only",
+  "scan_timestamp_utc": "2026-08-22T09:16:53Z",
+  "target": {
+    "domain": "example.com"
+  },
+  "dns": {
+    "status": "success",
+    "hostname": "example.com",
+    "ip_addresses": [
+      "104.20.23.154",
+      "172.66.147.243"
+    ],
+    "canonical_name": "example.com",
+    "error": null,
+    "aliases": []
+  },
+  "whois": {
+    "status": "success",
+    "registrar": "RESERVED-Internet Assigned Numbers Authority",
+    "creation_date": "1995-08-14T04:00:00+00:00",
+    "expiration_date": "2027-08-13T04:00:00+00:00",
+    "updated_date": "2026-08-14T08:01:43+00:00",
+    "name_servers": [
+      "elliott.ns.cloudflare.com",
+      "hera.ns.cloudflare.com"
+    ],
+    "status_codes": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "error": null
+  },
+  "geolocation": [
+    {
+      "status": "success",
+      "ip": "104.20.23.154",
+      "country": "United States",
+      "region": "California",
+      "city": "San Francisco",
+      "latitude": 37.7749113,
+      "longitude": -122.4185412,
+      "isp": "Cloudflare, Inc.",
+      "organization": "Cloudflare, Inc.",
+      "asn": 13335,
+      "provider": "ipwho.is",
+      "error": null
+    },
+    {
+      "status": "success",
+      "ip": "172.66.147.243",
+      "country": "United States",
+      "region": "California",
+      "city": "San Francisco",
+      "latitude": 37.7749113,
+      "longitude": -122.4185412,
+      "isp": "Cloudflare, Inc.",
+      "organization": "Cloudflare, Inc.",
+      "asn": 13335,
+      "provider": "ipwho.is",
+      "error": null
+    }
+  ]
+}

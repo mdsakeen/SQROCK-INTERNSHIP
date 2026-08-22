@@ -1,0 +1,15 @@
+{
+  "project": "Sqrock Cybersecurity Internship - Day 1",
+  "task": "OSINT & Passive Reconnaissance",
+  "scope_note": "Authorized practice/lab domain only",
+  "target": {
+    "domain": "YOUR_APPROVED_DOMAIN"
+  },
+  "dns": {
+    "status": "pending"
+  },
+  "whois": {
+    "status": "pending"
+  },
+  "geolocation": []
+}
